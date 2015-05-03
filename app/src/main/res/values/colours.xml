@@ -7,4 +7,7 @@
     <color name="black">#000000</color>
     <color name="lightorange">#eeeeee</color>
     <color name="white">#ffffff</color>
+    <color name="lightestgrey">#E5E5E5</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="darkgrey">#BDBDBD</color>
 </resources>

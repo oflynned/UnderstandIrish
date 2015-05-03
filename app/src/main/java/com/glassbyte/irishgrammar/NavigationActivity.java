@@ -55,6 +55,7 @@ public class NavigationActivity extends FragmentActivity {
 	 * 
 	 * Get the names and icons references to build the drawer menu...
 	 */
+
 	private void setUpDrawer() {
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		mDrawerLayout.setScrimColor(getResources().getColor(android.R.color.transparent));
