@@ -52,7 +52,7 @@
 
         <ExpandableListView
             android:id="@+id/lvExp"
-            android:layout_width="220dp"
+            android:layout_width="250dp"
             android:paddingRight="2dp"
             android:layout_height="match_parent"
             android:layout_gravity="left"

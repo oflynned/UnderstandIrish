@@ -49,7 +49,7 @@ public class NavigationActivity extends FragmentActivity {
 
 	private void setUpDrawer() {
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-		mDrawerLayout.setScrimColor(getResources().getColor(android.R.color.transparent));
+		mDrawerLayout.setScrimColor(getResources().getColor(R.color.fade_drawer));
 		mDrawerLayout.setDrawerListener(mDrawerListener);
 		expListView = (ExpandableListView) findViewById(R.id.lvExp);
 		prepareListData();
