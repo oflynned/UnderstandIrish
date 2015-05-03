@@ -13,7 +13,7 @@ public class LanguageTips extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.third, null);
+        View rootView = inflater.inflate(R.layout.languagetips_layout, null);
         //TextView.class.cast(rootView.findViewById(R.id.labelText)).setText("Earth");
         return rootView;
     }

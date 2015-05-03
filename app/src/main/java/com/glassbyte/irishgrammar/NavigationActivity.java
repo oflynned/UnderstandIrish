@@ -28,7 +28,6 @@ import java.util.HashMap;
 import java.util.List;
 
 public class NavigationActivity extends FragmentActivity {
-
 	private DrawerLayout mDrawerLayout;
 	ImageView home;
 	Fragment fragment = null;
@@ -41,20 +40,12 @@ public class NavigationActivity extends FragmentActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//String fontPath = "fonts/Shadow Boxing.ttf";
 		setContentView(R.layout.activity_navigation);
 		home = (ImageView)findViewById(R.id.home);
 		home.setOnClickListener(homeOnclickListener);
 		appname = (TextView)findViewById(R.id.appname);
-		//Typeface tf = Typeface.createFromAsset(this.getAssets(), fontPath);
-		//appname.setTypeface(tf);
 		setUpDrawer();
 	}
-
-	/**
-	 * 
-	 * Get the names and icons references to build the drawer menu...
-	 */
 
 	private void setUpDrawer() {
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -66,7 +57,9 @@ public class NavigationActivity extends FragmentActivity {
 		// setting list adapter
 		expListView.setAdapter(listAdapter);
 		fragment = new MercuryFragment();
-		getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).commit();
+		getSupportFragmentManager()
+				.beginTransaction()
+				.replace(R.id.content_frame, fragment).commit();
 		mDrawerLayout.closeDrawer(expListView);
 
 		expListView.setOnChildClickListener(new OnChildClickListener() {
@@ -85,7 +78,6 @@ public class NavigationActivity extends FragmentActivity {
 						fragment = new EarthFragment();
 						break;
 					default:
-
 						break;
 					}
 					break;
@@ -125,7 +117,12 @@ public class NavigationActivity extends FragmentActivity {
 				default:
 					break;
 				}
-				getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, fragment).commit();
+				getSupportFragmentManager()
+						.beginTransaction()
+						.setCustomAnimations(R.anim.abc_grow_fade_in_from_bottom,
+								R.anim.abc_shrink_fade_out_from_bottom)
+						.replace(R.id.content_frame, fragment)
+						.commit();
 				mDrawerLayout.closeDrawer(expListView);
 				return false;
 			}
@@ -218,6 +215,7 @@ public class NavigationActivity extends FragmentActivity {
 
 		// Adding child data
 		List<String> home = new ArrayList<String>();
+		home.add("Home");
 
 		List<String> introduction = new ArrayList<String>();
 		introduction.add("Why learn Irish?");

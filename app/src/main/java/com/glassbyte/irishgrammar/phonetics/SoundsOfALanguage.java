@@ -1,4 +1,4 @@
-package com.glassbyte.irishgrammar.introduction;
+package com.glassbyte.irishgrammar.phonetics;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,11 +9,11 @@ import android.view.ViewGroup;
 import com.glassbyte.irishgrammar.R;
 
 
-public class WhatMakesThisDifferent extends Fragment {
+public class SoundsOfALanguage extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.whatmakesthisdifferent_layout, null);
+        View rootView = inflater.inflate(R.layout.third, null);
         //TextView.class.cast(rootView.findViewById(R.id.labelText)).setText("Earth");
         return rootView;
     }
