@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <View
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"/>
         <TextView
@@ -27,6 +27,25 @@
             android:background="@android:color/darker_gray"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewIreland"
+            android:background="@drawable/ireland"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +55,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Our Language"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,6 +64,60 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body\nBody\nBody\nBody"/>
+            android:text="Irish Gaelic (known as simply &quot;Irish&quot; in Ireland) is the first language of about 90,000 people in the Republic of Ireland. It carries a rich and vibrant history with it as part of being the native language of Ireland. Irish is distinctly different to other European languages by its pronunciation and orthography. Irish is related to other languages spoken around the British Isles such as Manx (in the Isle of Man), Scottish Gaelic (in the Scottish Highlands), Welsh (in Wales), Cornish (in Cornwall) and Breton (In northern France)."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="But Irish is in danger."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Although Irish is the first language of the state, it is considered strange to speak our native language in public to one another, even after 13 years of compulsory learning in two tiers of education. All signs and documents are bilingual, but the people are not. This is down mainly to a stigma attached to learning the language in school, where a sense of distaste and annoyance by it is instill into pupils. The language is drilled into pupils without context. Instead of using it as a tool to communicate, learning the language is through the language entirely. School books are printed in Gaelic, while native and L2 speakers share the same syllabus and examination."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:paddingLeft="15dp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="This needs to change."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="I believe that in order for a language to be used, it has to be understood and have a use in a context. Irish shouldn't be a stigma or elitist mindset for a language enthusiast. Instead it should do what a language is intended to do - promote an identity and to allow you to communicate with people. If the Scandinavians can be both bilingual and keep their identities; then why must we be different? Let's all tackle this stigma and simply be Irish, before it's too late."/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
     </LinearLayout>
 </ScrollView>
