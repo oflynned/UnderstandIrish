@@ -223,7 +223,7 @@ public class NavigationActivity extends FragmentActivity {
 		introduction.add("Language tips");
 
 		List<String> phonetics = new ArrayList<String>();
-		phonetics.add("Sounds of a Language");
+		phonetics.add("Sounds of a language");
 		phonetics.add("Vowels");
 		phonetics.add("Consonants");
 		phonetics.add("Diphthongs");
@@ -233,84 +233,147 @@ public class NavigationActivity extends FragmentActivity {
 		phonetics.add("Prefixing");
 		
 		List<String> mutations = new ArrayList<String>();
-		mutations.add("A.B. de Villiers");
-		mutations.add("M.S. Dhoni");
-		mutations.add("K.C. Sangakkara");
+		mutations.add("What is a mutation?");
+		mutations.add("New sounds");
+		mutations.add("Lenition");
+		mutations.add("Eclipsis");
+		mutations.add("Prefixing");
 
 		List<String> interrogatives = new ArrayList<String>();
-		interrogatives.add("1");
-		interrogatives.add("2");
-		interrogatives.add("3");
+		interrogatives.add("What is an interrogative?");
+		interrogatives.add("What?");
+		interrogatives.add("Which?");
+		interrogatives.add("Who?");
+		interrogatives.add("When?");
+		interrogatives.add("Why?");
+		interrogatives.add("How?");
+		interrogatives.add("How much/many?");
 
 		List<String> gender = new ArrayList<String>();
-		gender.add("1");
-		gender.add("2");
-		gender.add("3");
+		gender.add("What is a gender?");
+		gender.add("Masculine");
+		gender.add("Feminine");
+		gender.add("Neuter");
 
 		List<String> articles = new ArrayList<String>();
-		articles.add("1");
-		articles.add("2");
-		articles.add("3");
+		articles.add("What is an article?");
+		articles.add("Usage");
+		articles.add("The definite article");
+		articles.add("The indefinite article");
+		articles.add("Declining articles");
+		articles.add("Prepositional articles");
+		articles.add("Abstract articles");
 
 		List<String> cases = new ArrayList<String>();
-		cases.add("1");
-		cases.add("2");
-		cases.add("3");
+		cases.add("What is a case?");
+		cases.add("Nominative case");
+		cases.add("Accusative case");
+		cases.add("Dative case");
+		cases.add("Genitive case");
+		cases.add("Partitive case");
+		cases.add("Vocative case");
 
 		List<String> nouns = new ArrayList<String>();
-		nouns.add("1");
-		nouns.add("2");
-		nouns.add("3");
+		nouns.add("What is a noun?");
+		nouns.add("Types of nouns");
+		nouns.add("1st declension");
+		nouns.add("2nd declension");
+		nouns.add("3rd declension");
+		nouns.add("4th declension");
+		nouns.add("5th declension");
+		nouns.add("Irregular declensions");
+		nouns.add("Verbal nouns");
+		nouns.add("Abstract nouns");
+		nouns.add("Apposition & proper nouns");
 
 		List<String> adjectives = new ArrayList<String>();
-		adjectives.add("1");
-		adjectives.add("2");
-		adjectives.add("3");
+		adjectives.add("What is an adjective?");
+		adjectives.add("Types of adjectives");
+		adjectives.add("Predicative adjectives");
+		adjectives.add("Attributive adjectives");
+		adjectives.add("Pronominal adjectives");
+		adjectives.add("Declination of adjectives");
+		adjectives.add("Comparative form");
+		adjectives.add("Superlative form");
+		adjectives.add("Equative form");
+		adjectives.add("Affical adjectives");
+		adjectives.add("Verbal adjectives");
 
 		List<String> inflection = new ArrayList<String>();
-		inflection.add("1");
-		inflection.add("2");
-		inflection.add("3");
+		inflection.add("What is inflection?");
+		inflection.add("Vowel harmony");
+		inflection.add("Palatalisation");
+		inflection.add("Depalatalisation");
+		inflection.add("Syncopation");
+		inflection.add("Voicing");
+		inflection.add("Remembering this stuff");
 
 		List<String> verbs = new ArrayList<String>();
-		verbs.add("1");
-		verbs.add("2");
-		verbs.add("3");
+		verbs.add("What are verbs?");
+		verbs.add("Tense");
+		verbs.add("Mood");
+		verbs.add("Conjugation");
+		verbs.add("Past tense");
+		verbs.add("Present tense");
+		verbs.add("Future tense");
+		verbs.add("Pluperfect tense");
+		verbs.add("Conditional tense");
+		verbs.add("Subjunctive tense");
+		verbs.add("Irregular verbs");
+		verbs.add("Defective verbs");
+		verbs.add("Verbal derivatives");
 
 		List<String> pronouns = new ArrayList<String>();
-		pronouns.add("1");
-		pronouns.add("2");
-		pronouns.add("3");
+		pronouns.add("What are pronouns?");
+		pronouns.add("Personal pronouns");
+		pronouns.add("Emphatic pronouns");
+		pronouns.add("Polite pronouns");
+		pronouns.add("Defective pronouns");
+		pronouns.add("Possessive pronouns");
+		pronouns.add("Substantive possessive pronouns");
+		pronouns.add("Prepositional pronouns");
+		pronouns.add("Agreement");
 
 		List<String> syntax = new ArrayList<String>();
-		syntax.add("1");
-		syntax.add("2");
-		syntax.add("3");
+		syntax.add("What is syntax?");
+		syntax.add("Word order");
+		syntax.add("Questions");
+		syntax.add("Copular syntax");
+		syntax.add("Special syntax");
+		syntax.add("Derivations");
 
 		List<String> clauses = new ArrayList<String>();
-		clauses.add("1");
-		clauses.add("2");
-		clauses.add("3");
+		clauses.add("What is a clause?");
+		clauses.add("Linking clauses");
+		clauses.add("Conditional clauses");
+		clauses.add("Relative clauses");
+		clauses.add("Miscellaneous");
 
 		List<String> prepositions = new ArrayList<String>();
-		prepositions.add("1");
-		prepositions.add("2");
-		prepositions.add("3");
+		prepositions.add("What is a preposition?");
+		prepositions.add("Conjugating prepositions");
+		prepositions.add("Unconjugated prepositions");
+		prepositions.add("Genitive prepositions");
+		prepositions.add("Saying 'For'");
 
 		List<String> numbers = new ArrayList<String>();
-		numbers.add("1");
-		numbers.add("2");
-		numbers.add("3");
+		numbers.add("Types of numbers");
+		numbers.add("Vocative");
+		numbers.add("Quantitative");
+		numbers.add("Ordinal");
+		numbers.add("Personal");
+		numbers.add("Time");
+		numbers.add("Decimals & fractions");
+		numbers.add("Miscellaneous");
 
 		List<String> quantities = new ArrayList<String>();
-		quantities.add("1");
-		quantities.add("2");
-		quantities.add("3");
+		quantities.add("Expressing amounts");
+		quantities.add("Partitive quantities");
+		quantities.add("Indeterminative quantities");
 
 		List<String> other = new ArrayList<String>();
-		other.add("1");
-		other.add("2");
-		other.add("3");
+		other.add("Internet acronyms");
+		other.add("Vocab lists");
 
 		List<String> aboutus = new ArrayList<String>();
 		aboutus.add("GlassByte");
