@@ -19,9 +19,80 @@ import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.glassbyte.irishgrammar.aboutus.AboutUs;
+import com.glassbyte.irishgrammar.adjectives.AffAdj;
+import com.glassbyte.irishgrammar.adjectives.AttAdj;
+import com.glassbyte.irishgrammar.adjectives.CompAdj;
+import com.glassbyte.irishgrammar.adjectives.EqAdj;
+import com.glassbyte.irishgrammar.adjectives.PredAdj;
+import com.glassbyte.irishgrammar.adjectives.ProAdj;
+import com.glassbyte.irishgrammar.adjectives.SuperAdj;
+import com.glassbyte.irishgrammar.adjectives.TypesOfAdjectives;
+import com.glassbyte.irishgrammar.adjectives.VerbalAdj;
+import com.glassbyte.irishgrammar.adjectives.WhatIsAnAdjective;
+import com.glassbyte.irishgrammar.articles.AbstractArticles;
+import com.glassbyte.irishgrammar.articles.DecliningArticles;
+import com.glassbyte.irishgrammar.articles.DefArticle;
+import com.glassbyte.irishgrammar.articles.IndefArt;
+import com.glassbyte.irishgrammar.articles.PrepositionalArticles;
+import com.glassbyte.irishgrammar.articles.Usage;
+import com.glassbyte.irishgrammar.articles.WhatIsAnArticle;
+import com.glassbyte.irishgrammar.cases.AccCase;
+import com.glassbyte.irishgrammar.cases.DatCase;
+import com.glassbyte.irishgrammar.cases.GenCase;
+import com.glassbyte.irishgrammar.cases.NomCase;
+import com.glassbyte.irishgrammar.cases.ParCase;
+import com.glassbyte.irishgrammar.cases.VocCase;
+import com.glassbyte.irishgrammar.cases.WhatIsACase;
+import com.glassbyte.irishgrammar.clauses.CondClauses;
+import com.glassbyte.irishgrammar.clauses.LinkClauses;
+import com.glassbyte.irishgrammar.clauses.Miscellaneous;
+import com.glassbyte.irishgrammar.clauses.RelClauses;
+import com.glassbyte.irishgrammar.clauses.WhatIsAClause;
+import com.glassbyte.irishgrammar.gender.Feminine;
+import com.glassbyte.irishgrammar.gender.Masculine;
+import com.glassbyte.irishgrammar.gender.Neuter;
+import com.glassbyte.irishgrammar.gender.WhatIsAGender;
+import com.glassbyte.irishgrammar.inflection.Depalatalisation;
+import com.glassbyte.irishgrammar.inflection.Palatalisation;
+import com.glassbyte.irishgrammar.inflection.Remembering;
+import com.glassbyte.irishgrammar.inflection.Syncopation;
+import com.glassbyte.irishgrammar.inflection.Voicing;
+import com.glassbyte.irishgrammar.inflection.VowelHarmony;
+import com.glassbyte.irishgrammar.inflection.WhatIsInf;
+import com.glassbyte.irishgrammar.interrogatives.How;
+import com.glassbyte.irishgrammar.interrogatives.HowMany;
+import com.glassbyte.irishgrammar.interrogatives.What;
+import com.glassbyte.irishgrammar.interrogatives.WhatIsAnInterrogative;
+import com.glassbyte.irishgrammar.interrogatives.When;
+import com.glassbyte.irishgrammar.interrogatives.Which;
+import com.glassbyte.irishgrammar.interrogatives.Who;
+import com.glassbyte.irishgrammar.interrogatives.Why;
 import com.glassbyte.irishgrammar.introduction.LanguageTips;
 import com.glassbyte.irishgrammar.introduction.WhatMakesThisDifferent;
 import com.glassbyte.irishgrammar.introduction.WhyLearnIrish;
+import com.glassbyte.irishgrammar.mutations.NewSounds;
+import com.glassbyte.irishgrammar.mutations.WhatIsAMutation;
+import com.glassbyte.irishgrammar.nouns.AbstractNouns;
+import com.glassbyte.irishgrammar.nouns.Apposition;
+import com.glassbyte.irishgrammar.nouns.FifthDec;
+import com.glassbyte.irishgrammar.nouns.FirstDec;
+import com.glassbyte.irishgrammar.nouns.FourthDec;
+import com.glassbyte.irishgrammar.nouns.IrrDec;
+import com.glassbyte.irishgrammar.nouns.SecDec;
+import com.glassbyte.irishgrammar.nouns.ThirdDec;
+import com.glassbyte.irishgrammar.nouns.TypesOfNouns;
+import com.glassbyte.irishgrammar.nouns.VerbalNouns;
+import com.glassbyte.irishgrammar.nouns.WhatIsANoun;
+import com.glassbyte.irishgrammar.numbers.DecFrac;
+import com.glassbyte.irishgrammar.numbers.Ordinal;
+import com.glassbyte.irishgrammar.numbers.Personal;
+import com.glassbyte.irishgrammar.numbers.Quan;
+import com.glassbyte.irishgrammar.numbers.Time;
+import com.glassbyte.irishgrammar.numbers.TypesOfNo;
+import com.glassbyte.irishgrammar.numbers.Voc;
+import com.glassbyte.irishgrammar.other.Acronyms;
+import com.glassbyte.irishgrammar.other.Vocab;
 import com.glassbyte.irishgrammar.phonetics.Consonants;
 import com.glassbyte.irishgrammar.phonetics.Diphthongs;
 import com.glassbyte.irishgrammar.phonetics.Eclipsis;
@@ -30,6 +101,41 @@ import com.glassbyte.irishgrammar.phonetics.Prefixing;
 import com.glassbyte.irishgrammar.phonetics.SoundsOfALanguage;
 import com.glassbyte.irishgrammar.phonetics.Stress;
 import com.glassbyte.irishgrammar.phonetics.Vowels;
+import com.glassbyte.irishgrammar.prepositions.ConjPrep;
+import com.glassbyte.irishgrammar.prepositions.For;
+import com.glassbyte.irishgrammar.prepositions.GenPrep;
+import com.glassbyte.irishgrammar.prepositions.UnconjPrep;
+import com.glassbyte.irishgrammar.prepositions.WhatIsAPrep;
+import com.glassbyte.irishgrammar.pronouns.Agreement;
+import com.glassbyte.irishgrammar.pronouns.DefPro;
+import com.glassbyte.irishgrammar.pronouns.EmphPro;
+import com.glassbyte.irishgrammar.pronouns.PolPro;
+import com.glassbyte.irishgrammar.pronouns.PossPro;
+import com.glassbyte.irishgrammar.pronouns.PrepPro;
+import com.glassbyte.irishgrammar.pronouns.SubPossPro;
+import com.glassbyte.irishgrammar.pronouns.WhatIsAPronoun;
+import com.glassbyte.irishgrammar.quantity.ExpQuantity;
+import com.glassbyte.irishgrammar.quantity.IndetQuan;
+import com.glassbyte.irishgrammar.quantity.PartQuan;
+import com.glassbyte.irishgrammar.syntax.CopularSyn;
+import com.glassbyte.irishgrammar.syntax.Deriv;
+import com.glassbyte.irishgrammar.syntax.Questions;
+import com.glassbyte.irishgrammar.syntax.SpecSyn;
+import com.glassbyte.irishgrammar.syntax.WhatIsSyntax;
+import com.glassbyte.irishgrammar.syntax.WordOrder;
+import com.glassbyte.irishgrammar.verbs.ConditionalTense;
+import com.glassbyte.irishgrammar.verbs.Conjugation;
+import com.glassbyte.irishgrammar.verbs.DefVerbs;
+import com.glassbyte.irishgrammar.verbs.FutureTense;
+import com.glassbyte.irishgrammar.verbs.IrrVerbs;
+import com.glassbyte.irishgrammar.verbs.Mood;
+import com.glassbyte.irishgrammar.verbs.PastTense;
+import com.glassbyte.irishgrammar.verbs.PluperfectTense;
+import com.glassbyte.irishgrammar.verbs.PresentTense;
+import com.glassbyte.irishgrammar.verbs.SubjTense;
+import com.glassbyte.irishgrammar.verbs.Tense;
+import com.glassbyte.irishgrammar.verbs.VerbalDerivatives;
+import com.glassbyte.irishgrammar.verbs.WhatIsAVerb;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -74,6 +180,7 @@ public class NavigationActivity extends FragmentActivity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 switch (groupPosition) {
+                    //home
                     case 0:
                         switch (childPosition) {
                             case 0:
@@ -83,6 +190,7 @@ public class NavigationActivity extends FragmentActivity {
                         }
                         break;
 
+                    //intro
                     case 1:
                         switch (childPosition) {
                             case 0:
@@ -99,6 +207,7 @@ public class NavigationActivity extends FragmentActivity {
                         }
                         break;
 
+                    //phonetics
                     case 2:
                         switch (childPosition) {
                             case 0:
@@ -124,6 +233,477 @@ public class NavigationActivity extends FragmentActivity {
                                 break;
                             case 7:
                                 fragment = new Prefixing();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //mutations
+                    case 3:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAMutation();
+                                break;
+                            case 1:
+                                fragment = new NewSounds();
+                                break;
+                            case 2:
+                                fragment = new com.glassbyte.irishgrammar.mutations.Lenition();
+                                break;
+                            case 3:
+                                fragment = new com.glassbyte.irishgrammar.mutations.Eclipsis();
+                                break;
+                            case 4:
+                                fragment = new com.glassbyte.irishgrammar.mutations.Prefixing();
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Interrogatives
+                    case 4:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAnInterrogative();
+                                break;
+                            case 1:
+                                fragment = new What();
+                                break;
+                            case 2:
+                                fragment = new Which();
+                                break;
+                            case 3:
+                                fragment = new Who();
+                                break;
+                            case 4:
+                                fragment = new When();
+                                break;
+                            case 5:
+                                fragment = new Why();
+                                break;
+                            case 6:
+                                fragment = new How();
+                                break;
+                            case 7:
+                                fragment = new HowMany();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //gender
+                    case 5:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAGender();
+                                break;
+                            case 1:
+                                fragment = new Masculine();
+                                break;
+                            case 2:
+                                fragment = new Feminine();
+                                break;
+                            case 3:
+                                fragment = new Neuter();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Articles
+                    case 6:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAnArticle();
+                                break;
+                            case 1:
+                                fragment = new Usage();
+                                break;
+                            case 2:
+                                fragment = new DefArticle();
+                                break;
+                            case 3:
+                                fragment = new IndefArt();
+                                break;
+                            case 4:
+                                fragment = new DecliningArticles();
+                                break;
+                            case 5:
+                                fragment = new PrepositionalArticles();
+                                break;
+                            case 6:
+                                fragment = new AbstractArticles();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //cases
+                    case 7:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsACase();
+                                break;
+                            case 1:
+                                fragment = new NomCase();
+                                break;
+                            case 2:
+                                fragment = new AccCase();
+                                break;
+                            case 3:
+                                fragment = new DatCase();
+                                break;
+                            case 4:
+                                fragment = new GenCase();
+                                break;
+                            case 5:
+                                fragment = new ParCase();
+                                break;
+                            case 6:
+                                fragment = new VocCase();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Nouns
+                    case 8:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsANoun();
+                                break;
+                            case 1:
+                                fragment = new TypesOfNouns();
+                                break;
+                            case 2:
+                                fragment = new FirstDec();
+                                break;
+                            case 3:
+                                fragment = new SecDec();
+                                break;
+                            case 4:
+                                fragment = new ThirdDec();
+                                break;
+                            case 5:
+                                fragment = new FourthDec();
+                                break;
+                            case 6:
+                                fragment = new FifthDec();
+                                break;
+                            case 7:
+                                fragment = new IrrDec();
+                                break;
+                            case 8:
+                                fragment = new VerbalNouns();
+                                break;
+                            case 9:
+                                fragment = new AbstractNouns();
+                                break;
+                            case 10:
+                                fragment = new Apposition();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //adjectives
+                    case 9:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAnAdjective();
+                                break;
+                            case 1:
+                                fragment = new TypesOfAdjectives();
+                                break;
+                            case 2:
+                                fragment = new PredAdj();
+                                break;
+                            case 3:
+                                fragment = new AttAdj();
+                                break;
+                            case 4:
+                                fragment = new ProAdj();
+                                break;
+                            case 5:
+                                fragment = new DecliningArticles();
+                                break;
+                            case 6:
+                                fragment = new CompAdj();
+                                break;
+                            case 7:
+                                fragment = new SuperAdj();
+                                break;
+                            case 8:
+                                fragment = new EqAdj();
+                                break;
+                            case 9:
+                                fragment = new AffAdj();
+                                break;
+                            case 10:
+                                fragment = new VerbalAdj();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //inflection
+                    case 10:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsInf();
+                                break;
+                            case 1:
+                                fragment = new VowelHarmony();
+                                break;
+                            case 2:
+                                fragment = new Palatalisation();
+                                break;
+                            case 3:
+                                fragment = new Depalatalisation();
+                                break;
+                            case 4:
+                                fragment = new Syncopation();
+                                break;
+                            case 5:
+                                fragment = new Voicing();
+                                break;
+                            case 6:
+                                fragment = new Remembering();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //verbs
+                    case 11:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAVerb();
+                                break;
+                            case 1:
+                                fragment = new Tense();
+                                break;
+                            case 2:
+                                fragment = new Mood();
+                                break;
+                            case 3:
+                                fragment = new Conjugation();
+                                break;
+                            case 4:
+                                fragment = new PastTense();
+                                break;
+                            case 5:
+                                fragment = new PresentTense();
+                                break;
+                            case 6:
+                                fragment = new FutureTense();
+                                break;
+                            case 7:
+                                fragment = new PluperfectTense();
+                                break;
+                            case 8:
+                                fragment = new ConditionalTense();
+                                break;
+                            case 9:
+                                fragment = new SubjTense();
+                                break;
+                            case 10:
+                                fragment = new IrrVerbs();
+                                break;
+                            case 11:
+                                fragment = new DefVerbs();
+                                break;
+                            case 12:
+                                fragment = new VerbalDerivatives();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Pronouns
+                    case 12:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAPronoun();
+                                break;
+                            case 1:
+                                fragment = new Personal();
+                                break;
+                            case 2:
+                                fragment = new EmphPro();
+                                break;
+                            case 3:
+                                fragment = new PolPro();
+                                break;
+                            case 4:
+                                fragment = new DefPro();
+                                break;
+                            case 5:
+                                fragment = new PossPro();
+                                break;
+                            case 6:
+                                fragment = new SubPossPro();
+                                break;
+                            case 7:
+                                fragment = new PrepPro();
+                                break;
+                            case 8:
+                                fragment = new Agreement();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Syntax
+                    case 13:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsSyntax();
+                                break;
+                            case 1:
+                                fragment = new WordOrder();
+                                break;
+                            case 2:
+                                fragment = new Questions();
+                                break;
+                            case 3:
+                                fragment = new CopularSyn();
+                                break;
+                            case 4:
+                                fragment = new SpecSyn();
+                                break;
+                            case 5:
+                                fragment = new Deriv();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Clauses
+                    case 14:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAClause();
+                                break;
+                            case 1:
+                                fragment = new LinkClauses();
+                                break;
+                            case 2:
+                                fragment = new CondClauses();
+                                break;
+                            case 3:
+                                fragment = new RelClauses();
+                                break;
+                            case 4:
+                                fragment = new Miscellaneous();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Prepositions
+                    case 15:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new WhatIsAPrep();
+                                break;
+                            case 1:
+                                fragment = new ConjPrep();
+                                break;
+                            case 2:
+                                fragment = new UnconjPrep();
+                                break;
+                            case 3:
+                                fragment = new GenPrep();
+                                break;
+                            case 4:
+                                fragment = new For();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Numbers
+                    case 16:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new TypesOfNo();
+                                break;
+                            case 1:
+                                fragment = new Voc();
+                                break;
+                            case 2:
+                                fragment = new Quan();
+                                break;
+                            case 3:
+                                fragment = new Ordinal();
+                                break;
+                            case 4:
+                                fragment = new Personal();
+                                break;
+                            case 5:
+                                fragment = new Time();
+                                break;
+                            case 6:
+                                fragment = new DecFrac();
+                                break;
+                            case 7:
+                                fragment = new com.glassbyte.irishgrammar.numbers.Miscellaneous();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Quantity
+                    case 17:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new ExpQuantity();
+                                break;
+                            case 1:
+                                fragment = new PartQuan();
+                                break;
+                            case 2:
+                                fragment = new IndetQuan();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //Other
+                    case 18:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new Acronyms();
+                                break;
+                            case 1:
+                                fragment = new Vocab();
+                                break;
+                            default:
+                                break;
+                        }
+                        break;
+
+                    //About
+                    case 19:
+                        switch (childPosition) {
+                            case 0:
+                                fragment = new AboutUs();
                                 break;
                             default:
                                 break;
