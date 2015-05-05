@@ -1,13 +1,15 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/white"
     >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <View
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="1dp"
             android:background="@android:color/darker_gray"/>
         <TextView
@@ -27,24 +29,156 @@
             android:background="@android:color/darker_gray"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="5dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingBottom="10dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body\nBody\nBody\nBody"/>
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/cell_coloured"
+                android:padding="5dp"
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView">
+            </TextView>
+
+            <TextView
+                android:background="@drawable/cell_coloured"
+                android:padding="5dp"
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView1"/>
+
+            <TextView
+                android:background="@drawable/cell_coloured"
+                android:padding="5dp"
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView2"/>
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/cell_coloured"
+                android:padding="5dp"
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView">
+            </TextView>
+
+            <TextView
+                android:background="@drawable/cell"
+                android:padding="5dp"
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView1"/>
+
+            <TextView
+                android:background="@drawable/cell"
+                android:padding="5dp"
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView2"/>
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/cell_coloured"
+                android:padding="5dp"
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView">
+            </TextView>
+
+            <TextView
+                android:background="@drawable/cell"
+                android:padding="5dp"
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView1"/>
+
+            <TextView
+                android:background="@drawable/cell"
+                android:padding="5dp"
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView2"/>
+
+        </TableRow>
+
+        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@drawable/cell_coloured"
+                android:padding="5dp"
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView">
+            </TextView>
+
+            <TextView
+                android:background="@drawable/cell"
+                android:padding="5dp"
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView1"/>
+
+            <TextView
+                android:background="@drawable/cell"
+                android:padding="5dp"
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TextView2"/>
+
+        </TableRow>
+    </TableLayout>
     </LinearLayout>
 </ScrollView>

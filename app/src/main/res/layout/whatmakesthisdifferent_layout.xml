@@ -66,7 +66,26 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="•\tLearning an essay by heart is neither language learning nor correct exam preparation"/>
+            android:text="•\tLearning an essay by heart is neither language learning nor correct exam preparation"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The Solution"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -78,26 +97,6 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="So I propose a solution; fundamentally explain grammar as how it logically is, as well as to provide a way of learning Irish in a comprehensive way."/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="5dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingBottom="10dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
         <View
             android:layout_width="fill_parent"
             android:layout_height="1dp"
