@@ -64,7 +64,7 @@ public class NavigationActivity extends FragmentActivity {
         listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
         // setting list adapter
         expListView.setAdapter(listAdapter);
-        fragment = new MercuryFragment();
+        fragment = new Home();
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.content_frame, fragment).commit();
@@ -77,14 +77,7 @@ public class NavigationActivity extends FragmentActivity {
                     case 0:
                         switch (childPosition) {
                             case 0:
-                                fragment = new MercuryFragment();
-                                break;
-                            case 1:
-                                fragment = new VenusFragment();
-                                break;
-                            case 2:
-                                fragment = new EarthFragment();
-                                break;
+                                fragment = new Home();
                             default:
                                 break;
                         }
@@ -169,7 +162,7 @@ public class NavigationActivity extends FragmentActivity {
 
             switch (position) {
                 case 0:
-                    fragment = new MercuryFragment();
+                    fragment = new Home();
                     break;
                 case 1:
                     fragment = new VenusFragment();
