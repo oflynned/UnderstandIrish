@@ -56,7 +56,17 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="•\tStudents are expected to learn a language fully when they don't understand its basics\n•\tStudents are educated in English, but then switch to Irish for Irish class\n•\tThere is a lack of a need to communicate in it over English\n•\tIts importance is unstressed in order to differentiate ourselves from neighbouring countries"/>
+            android:text="•\tStudents are expected to learn a language both implicitly (how a baby learns a language) and explicitly (how an adult learns a language) without a common context between them\n•\tStudents are educated in English, but then switch to Irish for Irish class which creates confusion for its context and purpose\n•\tThere seems to be a stigma attached to speaking Irish as an Irish person\n•\tIts importance is unstressed in order to differentiate ourselves from neighbouring countries and to celebrate a difference in culture"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\n...and the most irksome thing about Irish and other school classes:"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -95,7 +105,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="So I propose a solution; fundamentally explain grammar as how it logically is, as well as to provide a way of learning Irish in a comprehensive way."/>
+            android:text="So I propose a solution; fundamentally explain grammar as how it logically is, as well as to provide a way of learning Irish in a comprehensive way. Over the past few years, I've translated computer games into Irish in my spare time to provide another means of using Irish as you would any other language - by doing stuff in it and understanding how it works! A language is not meant to be a chore. If it's thought of as such, then there's a serious fundamental flaw in its teaching and usage.\n\nBy allowing a user to understand why rules govern a certain way, it leads to a greater understanding that isn't limited to those who learn Irish academically."/>
 
         <View
             android:layout_width="fill_parent"

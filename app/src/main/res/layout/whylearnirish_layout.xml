@@ -64,7 +64,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Irish Gaelic (known as simply &quot;Irish&quot; in Ireland) is the first language of about 90,000 people in the Republic of Ireland. It carries a rich and vibrant history with it as part of being the native language of Ireland. Irish is distinctly different to other European languages by its pronunciation and orthography. Irish is related to other languages spoken around the British Isles such as Manx (in the Isle of Man), Scottish Gaelic (in the Scottish Highlands), Welsh (in Wales), Cornish (in Cornwall) and Breton (In northern France)."/>
+            android:text="Irish Gaelic (known as simply &quot;Irish&quot; in Ireland) is the first language of about 90,000 people in the Republic of Ireland. It carries a rich and vibrant history with it as part of being the native language of Ireland. Irish is distinctly different to other European languages by its pronunciation and orthography. Irish is related to other languages spoken around the British Isles such as Manx (in the Isle of Man), Scottish Gaelic (in the Scottish Highlands), Welsh (in Wales), Cornish (in Cornwall) and Breton (in northern France)."/>
 
         <TextView
             android:layout_width="wrap_content"
