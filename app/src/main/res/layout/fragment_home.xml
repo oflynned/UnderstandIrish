@@ -6,7 +6,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/gradient">
+        android:background="@color/main_green">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -23,8 +23,8 @@
             android:maxWidth="200dp"
             android:maxHeight="200dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/glassbyte"
-            android:layout_marginTop="30dp"
+            android:src="@drawable/gaeilge"
+            android:layout_marginTop="15dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
 
@@ -34,9 +34,9 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textStyle="bold"
             android:text="Fáilte Romhat!"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:id="@+id/logotext"
-            android:textColor="@color/black"
+            android:textColor="@color/red"
             android:layout_below="@+id/image_view"
             android:layout_centerHorizontal="true" />
 
@@ -64,7 +64,9 @@
             android:scaleType="fitCenter"
             android:src="@drawable/swipe_arrow"
             android:layout_below="@+id/maindesc"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -77,7 +79,30 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:autoLink="web"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="If you enjoy this app and wish to help support ad-free apps, please help support development by donating!"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:layout_below="@+id/image_view_swipe"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donate"
+            android:id="@+id/button"
+            android:layout_below="@+id/textView"
             android:layout_centerHorizontal="true" />
 
     </RelativeLayout>

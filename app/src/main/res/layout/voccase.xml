@@ -103,7 +103,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="By default, using the particle 'a' before a word just indicates that it's in the vocative case. If the exclaimer wants to stress the noun by adding the equivalent English 'Oh!' to it, the word 'ó' must be prefixed or suffixed to the sentence.\n\n• Ó a Sheáin! A Sheáin ó! - Oh John!\n\nIt's important to also note that you do not use possessive pronouns with the vocative case in Irish. This means:\n\n• 'Oh my God!' is simply written as 'Ó a Dhia!'\n\nTherefore this is incorrect:\n• *Ó mo Dhia (incorrect)"/>
+            android:text="By default, using the particle 'a' before a word just indicates that it's in the vocative case. If the exclaimer wants to stress the noun by adding the equivalent English 'Oh!' to it, the word 'ó' must be prefixed or suffixed to the sentence.\n\n• Ó a Sheáin! A Sheáin ó! - Oh John!\n\nIt's important to also note that you do not use pronouns with the vocative case in Irish. This means:\n\n• 'Oh my God!' is simply written as 'Ó a Dhia!'\n• 'You idiot!' is simply written as 'A amadáin!'\n\nTherefore these are incorrect:\n• *Ó mo Dhia (incorrect)\n• *Tú amadáin! (incorrect)"/>
 
         <View
             android:layout_width="fill_parent"

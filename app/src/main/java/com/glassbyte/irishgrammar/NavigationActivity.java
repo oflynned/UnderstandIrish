@@ -155,9 +155,9 @@ public class NavigationActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
-        home = (ImageView) findViewById(R.id.home);
-        home.setOnClickListener(homeOnclickListener);
-        appname = (TextView) findViewById(R.id.appname);
+        //home = (ImageView) findViewById(R.id.home);
+        //home.setOnClickListener(homeOnclickListener);
+        //appname = (TextView) findViewById(R.id.appname);
         setUpDrawer();
     }
 

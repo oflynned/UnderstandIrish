@@ -1,8 +1,9 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-
-        <item name="android:windowTranslucentStatus">true</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimaryDark">@color/dark_grad_green</item>
+        <item name="android:navigationBarColor">@color/dark_grad_green</item>
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
 </resources>

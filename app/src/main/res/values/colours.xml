@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="red">#b80101</color>
+    <color name="red">#B0464C</color>
     <color name="lightblue">#0290d6</color>
     <color name="blue">#017cb8</color>
     <color name="statusblue">#02608e</color>
@@ -11,4 +11,24 @@
     <color name="lightgrey">#D3D3D3</color>
     <color name="darkgrey">#BDBDBD</color>
     <color name="fade_drawer">#99000000</color>
+
+    <color name="cream">#F8F1FF</color>
+    <color name="textblack">#040404</color>
+    <color name="darkcream">#DECDF5</color>
+
+    <color name="main_green">#97D5A4</color>
+    <color name="green">#26ae90</color>
+    <color name="dark_grad_green">#216869</color>
+    <color name="light_black">#2e3237</color>
+    <color name="skyblue">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="hint_grey">#999999</color>
+    <color name="dark_hint_grey">#888888</color>
+    <color name="darker_hint_grey">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="orange">#ff6861</color>
+
+    <color name="transparent">#9FFFFFFF</color>
 </resources>

@@ -3,12 +3,12 @@
     android:layout_width="fill_parent"
     android:layout_height="48dp"
     android:orientation="vertical"
-    android:background="@color/white">
+    android:background="@color/cream">
 
     <TextView
         android:layout_gravity="center_vertical"
-        android:textSize="20sp"
-        android:textColor="@color/red"
+        android:textSize="15sp"
+        android:textColor="@color/textblack"
         android:textStyle="normal"
         android:id="@+id/lblListHeader"
         android:layout_width="wrap_content"
