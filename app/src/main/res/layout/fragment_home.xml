@@ -72,21 +72,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="For more apps, visit us at our website! \nhttp://www.glassbyte.com/"
-            android:textColorLink="@color/red"
-            android:id="@+id/link_lol"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:autoLink="web"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="If you enjoy this app and wish to help support ad-free apps, please help support development by donating!"
             android:id="@+id/textView"
             android:gravity="center"
@@ -101,8 +86,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Donate"
-            android:id="@+id/button"
+            android:layout_marginTop="10dp"
+            android:id="@+id/donate"
             android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="For more apps, visit us at our website! \nhttp://www.glassbyte.com/"
+            android:textColorLink="@color/red"
+            android:id="@+id/link_lol"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:autoLink="web"
+            android:layout_below="@+id/donate"
             android:layout_centerHorizontal="true" />
 
     </RelativeLayout>

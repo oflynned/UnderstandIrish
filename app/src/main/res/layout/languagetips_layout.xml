@@ -158,7 +158,7 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="•\tExpress yourself as much as possible!\n•\tDon't worry about making mistakes, you can only improve\n•\tTry listening to music, watching movies, reading books and anything else possible in that language\n•\tRapping is a great way to gain a better accent\n•\tTry to listen as closely as possible to pronounce words like a native speaker; remember - sounds differ between languages\n•\tTry learning another language through your second language and create a chain!"/>
+            android:text="•\tExpress yourself as much as possible!\n•\tDon't worry about making mistakes, you can only improve\n•\tTry listening to music, watching movies, reading books and anything else possible in that language\n•\tRapping is a great way to gain a better accent. Worried what you're saying doesn't make sense? A lot of professional rappers could say the same about their actual work!\n•\tTry to listen as closely as possible to pronounce words like a native speaker; remember - sounds differ between languages\n•\tTry learning another language through your second language and create a chain!"/>
 
         <View
             android:layout_width="fill_parent"

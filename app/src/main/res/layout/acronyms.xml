@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Internet Acronyms"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,25 +47,19 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp" />
+            android:text="Irish, like every other language can be used to make acronyms with. Acronyms are in use on the internet and in every electronic way of life. Here's a short list of them:"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
             android:textColor="@color/black"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="5dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Irish - English\nGOA - LOL\nGRMA - TY\nNASAA - YOLO\nOAD - OMG\nABMTAG - LMFAO\nRTUG - ROFL"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +69,19 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
+            android:text="Here are some short-hand SMS abbreviations:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tonight - an8 (anocht)\nYou - 2 (tú)"/>
 
         <View
             android:layout_width="fill_parent"

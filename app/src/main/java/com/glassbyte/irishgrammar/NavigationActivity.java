@@ -969,7 +969,7 @@ public class NavigationActivity extends FragmentActivity {
 
         List<String> other = new ArrayList<String>();
         other.add("Internet acronyms");
-        other.add("Vocab lists");
+        //other.add("Vocab lists");
 
         List<String> aboutus = new ArrayList<String>();
         aboutus.add("GlassByte");
