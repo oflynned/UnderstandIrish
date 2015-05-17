@@ -33,5 +33,14 @@
             android:layout_gravity="left"
             android:background="@android:color/darker_gray" >
         </ExpandableListView>
+
+        <ExpandableListView
+            android:id="@+id/lvExpR"
+            android:layout_width="300dp"
+            android:left="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/main_green" >
+        </ExpandableListView>
     </android.support.v4.widget.DrawerLayout>
 </LinearLayout>
