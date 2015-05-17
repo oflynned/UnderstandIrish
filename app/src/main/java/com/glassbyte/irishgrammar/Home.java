@@ -21,7 +21,7 @@ public class Home extends Fragment{
 		mDonate.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(getActivity(),"Giz ur change luv",Toast.LENGTH_SHORT).show();
+				Toast.makeText(getActivity(),"Giz ur spare change luv",Toast.LENGTH_SHORT).show();
 			}
 		});
 
