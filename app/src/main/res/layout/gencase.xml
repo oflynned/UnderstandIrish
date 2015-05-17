@@ -75,7 +75,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="• Tá earr (nom) and choinín (gen) gearr\n• The tail of the rabbit (the rabbit's tail) is short\n(Whose tail is short? The rabbit's tail is.)\n\n• Seo h-iad bréagáin (nom) an linbh (gen)\n• These are the child's toys\n(Whose toys are these? The child's toys.)"/>
+            android:text="• Tá earr (nom) an choinín (gen) gearr\n• The tail of the rabbit (the rabbit's tail) is short\n(Whose tail is short? The rabbit's tail is.)\n\n• Seo h-iad bréagáin (nom) an linbh (gen)\n• These are the child's toys\n(Whose toys are these? The child's toys.)"/>
 
         <View
             android:layout_width="match_parent"
@@ -103,7 +103,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="In Irish, the genitive case is used for showing ownership, but also with some prepositions and after gerunds regardless of ownership:\n\nPossession:\n• Tá hata an fhir (gen) dubh\n• The man's (gen) hat is black\n(Whose hat is black? The man's.)\n\nPrepositions:\n• Bhuail an gluailsteán in aghaidh an bhalla (gen)\n• The car hit against the wall (gen)\n(In aghaidh is governed by the genitive case ('at the face of')\n\nQuantity:\n• Ceannaíodh líon mór na gcapall (gen) ag aon aonach\n• A large amount of horses (gen) were bought at the fair\n(Depending on context genitive case or partitive case can be used)\n\nGerunds:\n• Tá sé ag cur báistí (gen)\n• Is it raining\n(Ag... which corresponds to ...ing is governed by the genitive case. It corresponds directly to 'at the ... of ...', 'at the giving of rain'"/>
+            android:text="In Irish, the genitive case is used for showing ownership, but also with some prepositions and after gerunds regardless of ownership:\n\nPossession:\n• Tá hata an fhir (gen) dubh\n• The man's (gen) hat is black\n(Whose hat is black? The man's.)\n\nPrepositions:\n• Bhuail an gluailsteán in aghaidh an bhalla (gen)\n• The car hit against the wall (gen)\n(In aghaidh is governed by the genitive case ('at the face of')\n\nQuantity:\n• Ceannaíodh líon mór na gcapall (gen) ag an aonach\n• A large amount of horses (gen) were bought at the fair\n(Depending on context genitive case or partitive case can be used)\n\nGerunds:\n• Tá sé ag cur báistí (gen)\n• Is it raining\n(Ag... which corresponds to ...ing is governed by the genitive case. It corresponds directly to 'at the ... of ...', 'at the giving of rain'"/>
 
         <View
             android:layout_width="match_parent"
