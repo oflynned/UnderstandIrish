@@ -706,7 +706,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
-                                android:text="f2 nouns\n(binn, dúil)">
+                                android:text="f2 nouns\n(binn, deoir)">
                             </TextView>
 
                             <TextView
@@ -717,7 +717,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
-                                android:text="Extend with -e\n(binne, dúile)"/>
+                                android:text="Broaden\n(beann, deor)"/>
 
                         </TableRow>
                         <TableRow android:id="@+id/btableRow8" android:layout_width="match_parent" android:layout_height="wrap_content">
