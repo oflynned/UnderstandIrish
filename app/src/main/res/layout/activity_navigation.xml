@@ -41,7 +41,7 @@
             android:left="2dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:background="@color/cream">
+            android:background="@color/lightestgrey">
 
             <ScrollView
                 android:layout_width="wrap_content"
@@ -72,10 +72,34 @@
                         android:id="@+id/line1"
                         android:background="@android:color/darker_gray"/>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Possessive Pronouns\nwith Consonant"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@+id/line1"
+                        android:id="@+id/title1"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"/>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/title1"
+                        android:id="@+id/line2"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/atable"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/line1"
+                        android:layout_below="@+id/line2"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -361,10 +385,34 @@
                         </TableRow>
                     </TableLayout>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Possessive Pronouns\nwith Vowel"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/title2"
+                        android:layout_below="@+id/atable"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"/>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/title2"
+                        android:id="@+id/line3"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/btable"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/atable"
+                        android:layout_below="@+id/line3"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -429,7 +477,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
-                                android:text="+h"/>
+                                android:text="-"/>
 
                             <TextView
                                 android:background="@drawable/cell"
@@ -464,7 +512,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/black"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
-                                android:text="+h"/>
+                                android:text="-"/>
 
                             <TextView
                                 android:background="@drawable/cell"
@@ -650,10 +698,33 @@
                         </TableRow>
                     </TableLayout>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Genitive Plural"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/title3"
+                        android:layout_below="@+id/btable"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/title3"
+                        android:id="@+id/line4"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/ctable"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/btable"
+                        android:layout_below="@+id/line4"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -746,10 +817,33 @@
                         </TableRow>
                     </TableLayout>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Declension Guessing"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/title4"
+                        android:layout_below="@+id/ctable"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/title4"
+                        android:id="@+id/line5"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/dtable"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/ctable"
+                        android:layout_below="@+id/line5"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -941,10 +1035,33 @@
                         </TableRow>
                     </TableLayout>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Vocative Singular"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/title5"
+                        android:layout_below="@+id/dtable"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/title5"
+                        android:id="@+id/line6"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/etable"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/dtable"
+                        android:layout_below="@+id/line6"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
@@ -1037,10 +1154,33 @@
                         </TableRow>
                     </TableLayout>
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Vocative Plural"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/title6"
+                        android:layout_below="@+id/etable"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/title6"
+                        android:id="@+id/line7"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/ftable"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/etable"
+                        android:layout_below="@+id/line7"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"

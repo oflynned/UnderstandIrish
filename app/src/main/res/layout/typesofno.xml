@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Non-mathematical abstraction"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="As an engineer, there's an urge to explain the types of numbers in terms of mathematics; but that is not the point of this guide. Numbers in languages provide a way of counting and expressing measurable amounts. Numbers can be vocative cardinal (1,2,3...), expressive (1 boat, 9 commuters), virile (1 person, 2 people, 3 people...), and ordinal (1st, 2nd, 3rd...)"/>
 
         <View
             android:layout_width="match_parent"

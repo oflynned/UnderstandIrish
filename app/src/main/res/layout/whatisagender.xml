@@ -125,7 +125,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="As it goes without saying, the wrong gender can affect meaning; so it of utmost importance to learn its gender when learning new vocabulary:"/>
+            android:text="The wrong gender can affect meaning; so it of utmost importance to learn its gender when learning new vocabulary:"/>
 
         <TextView
             android:layout_width="wrap_content"

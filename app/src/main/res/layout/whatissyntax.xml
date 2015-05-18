@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Order"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="Syntax is the order in which ideas and clusters of ideas must be placed in order to portray a grammatically correct sentence in any language. Different languages follow different orders. In Irish, the verb comes first, then the subject, and finally the objects of the sentence after this. This is known as VSO construction.\n\nIn English there is another construction in which we lay out ideas, instead we use SVO; as the subject comes first, then the verb, and finally the sentence objects."/>
 
         <View
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:text="Why is this important?"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
+            android:text="Syntax is important as it's the basis in how you communicate your thoughts and words in a language. Without syntax, it's not possible to express yourself."/>
 
         <View
             android:layout_width="fill_parent"

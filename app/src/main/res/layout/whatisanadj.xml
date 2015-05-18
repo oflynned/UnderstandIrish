@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Description"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="An adjective is a word that describes a noun. They are used extensively to give a noun certain qualities, and affect its perception. Try describing your environment around you, you're sure to use adjectives to make the scene unique."/>
 
         <View
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:text="Declination"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +75,19 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
+            android:text="Adjectives decline (change form) depending on the case and gender of the noun its describing. In Irish, the adjective comes after the noun it's describing; this is the opposite to the way English describes words."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="fear maith - a good man\nbean chliste - an intelligent woman\nhata an fhir aird - the hat of the small man\nfonn na mná airde - desire of the tall woman"/>
 
         <View
             android:layout_width="fill_parent"

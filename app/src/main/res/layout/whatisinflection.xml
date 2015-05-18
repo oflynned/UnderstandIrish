@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Case intertwining"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="An inflection is the way the ending of a noun changes depending on its use in a sentence. By knowing the declension and case a word belongs to, then it's possible to accurately predict what the word changes to in its context of use."/>
 
         <View
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:text="Inflection in other languages"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
+            android:text="Inflection is not a feature that is unique to Irish. Many languages inflect to express meaning and case context in order to express clarity. Latin is a language that is famous for its inflection in its endings for nouns."/>
 
         <View
             android:layout_width="fill_parent"
