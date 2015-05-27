@@ -30,7 +30,6 @@ import com.glassbyte.irishgrammar.adjectives.SuperAdj;
 import com.glassbyte.irishgrammar.adjectives.TypesOfAdjectives;
 import com.glassbyte.irishgrammar.adjectives.VerbalAdj;
 import com.glassbyte.irishgrammar.adjectives.WhatIsAnAdjective;
-import com.glassbyte.irishgrammar.articles.AbstractArticles;
 import com.glassbyte.irishgrammar.articles.DecliningArticles;
 import com.glassbyte.irishgrammar.articles.DefArticle;
 import com.glassbyte.irishgrammar.articles.IndefArt;
@@ -333,9 +332,6 @@ public class NavigationActivity extends FragmentActivity {
                                 break;
                             case 5:
                                 fragment = new PrepositionalArticles();
-                                break;
-                            case 6:
-                                fragment = new AbstractArticles();
                                 break;
                             default:
                                 break;
@@ -858,7 +854,6 @@ public class NavigationActivity extends FragmentActivity {
         articles.add("The indefinite article");
         articles.add("Declining articles");
         articles.add("Prepositional articles");
-        articles.add("Abstract articles");
 
         List<String> cases = new ArrayList<String>();
         cases.add("What is a case?");

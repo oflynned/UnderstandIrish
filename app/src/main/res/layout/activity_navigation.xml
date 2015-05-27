@@ -37,7 +37,7 @@
 
         <FrameLayout
             android:id="@+id/lvExpR"
-            android:layout_width="330dp"
+            android:layout_width="345dp"
             android:left="2dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"
@@ -1271,6 +1271,726 @@
                                 android:text="Same as nom plural"/>
 
                         </TableRow>
+                    </TableLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/ftable"
+                        android:id="@+id/lineprep"
+                        android:background="@android:color/darker_gray"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textStyle="bold"
+                        android:text="Prepositional Articles"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@+id/lineprep"
+                        android:id="@+id/titlePrepArt"
+                        android:textColor="@color/red"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"/>
+
+                    <TableLayout
+                        android:id="@+id/tableprep"
+                        android:layout_below="@+id/titlePrepArt"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp">
+
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell_coloured"
+                                android:padding="5dp"
+                                android:id="@+id/textView11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Preposition">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell_coloured"
+                                android:padding="5dp"
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Combined"/>
+
+                            <TextView
+                                android:background="@drawable/cell_coloured"
+                                android:padding="5dp"
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Effect"/>
+
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView21"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Ag (At)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView22"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Ag an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView23"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView31"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Ar (On)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView32"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Ar an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView33"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="As (Out of)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="As an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Chuig (Towards)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Chuig an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Faoi (Under)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Faoin"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Le (With)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Leis an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Mar (As/Like)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Mar an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Lenition"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Ó (From)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Ón"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Roimh (Before)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Roimh an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Trí (Through)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Tríd an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Thar (Over)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Thar an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Um (Around)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Um an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Lenition"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="De (Away from)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Den"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Lenition"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Do (To/For)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Don"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Lenition"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="I (In)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Sa"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Lenition"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Fara (Besides)\n(In company of)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Fairis an\n"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Eclipsis\n"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Go (To)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Go dtí an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Depends"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Idir (Between)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Idir an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Depends"/>
+                        </TableRow>
+
+                        <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView41"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Gan (Without)">
+                            </TextView>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView42"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Gan an"/>
+
+                            <TextView
+                                android:background="@drawable/cell"
+                                android:padding="5dp"
+                                android:id="@+id/textView43"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="Depends"/>
+                        </TableRow>
+
                     </TableLayout>
                 </RelativeLayout>
             </ScrollView>
