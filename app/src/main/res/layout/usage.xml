@@ -275,7 +275,18 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="When combined with the word 'cé', the resulting compound is equivalent to the word 'which' in Irish."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• Cé + an : Cén - Which\n\t• Cé + na - Which\n\t• Cé h-iad na - Which"
+            />
 
         <View
             android:layout_width="match_parent"
@@ -303,7 +314,18 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="Irish uses the definite article when referring to an attributive noun in copular syntax. Despite the noun beign indeterminate, it still takes the determinate article."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• Is ard an duine é - He is a tall person"
+            />
 
         <View
             android:layout_width="match_parent"
@@ -331,7 +353,18 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="Genitive attribution causes the possessed noun (standing in the nominative case) to not use a definite article"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• Teach Sheáin - John's house\n\t• an Teach Sheáin - INCORRECT"
+            />
 
         <View
             android:layout_width="match_parent"
@@ -359,7 +392,18 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="Irish uses the definite article to introduce new agents to a situational context that were previously unmentioned or not 'situationally aware' to the listeners"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• Tháinig an bhean isteach - A woman came in"
+            />
 
         <View
             android:layout_width="match_parent"
@@ -387,7 +431,75 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="Irish treats abstract ideas in a special way by using the definite article as a method of quantifying expression that is otherwise non-quantifiable. When an abstract noun is used in a non-abstract sense by referring to a definite person; it does not require the definite article."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• an t-ocras - hunger\n\t(but 'tá ocras orm' - 'I am hungry')\n\t• an iomarca - excessive\n\t• na mílte - thousands\n\t• an t-olc - evil\n\t• an té - mankind/the one"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Abstraction also encompasses social classes and groupings in the singular form."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• an bocht - the poor\n\t• an saibhir - the rich"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Objects of relative clauses take the definite article, but is optional to include."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• (an) rud a chonaic mé - the thing I saw\n\t• (an) duine a chuaigh ann - the person who went there"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Demonstratives that refer to an object within a context must take the definite article."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• an rud seo - this thing\n\t• an rud sin - that thing\n\t• an rud siúd - that thing over there"/>
 
         <View
             android:layout_width="fill_parent"
