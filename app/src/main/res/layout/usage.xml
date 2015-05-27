@@ -85,7 +85,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="\t• an Nollaig - Christmas\n\t• an Samhradh - Summer\n\t• an Aoine - Friday\n\t• an Iúl - July"/>
+            android:text="\t• an Nollaig - Christmas\n\t• an Samhradh - Summer\n\t• an Aoine - Friday\n\t• an Iúil - July"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -500,6 +500,26 @@
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="\t• an rud seo - this thing\n\t• an rud sin - that thing\n\t• an rud siúd - that thing over there"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Expressing possession takes the form 'an...ag...' where the noun owned stands with the definite article."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• an rud seo agam - this thing that I have\n\t• an páiste ag Seán - the child that John has"/>
+
 
         <View
             android:layout_width="fill_parent"
