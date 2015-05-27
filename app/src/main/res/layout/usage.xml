@@ -520,6 +520,24 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="\t• an rud seo agam - this thing that I have\n\t• an páiste ag Seán - the child that John has"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Dual form with the word 'beirt'/'dá', corresponding to both virile/non-virile dual and non-specific dual attributive nouns."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="\t• an beirt acu - the two of them\n\t• an dá rud - the two things"/>
 
         <View
             android:layout_width="fill_parent"

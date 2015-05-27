@@ -57,7 +57,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="\t• bean - a woman/woman\n\t• fear - a man/man\n\t• bord - a table/table\n\t• ríomhaire - a computer/computer"/>
+            android:text="\t• bean - a woman or woman\n\t• fear - a man or man\n\t• bord - a table or table\n\t• ríomhaire - a computer or computer"/>
 
 
         <View
