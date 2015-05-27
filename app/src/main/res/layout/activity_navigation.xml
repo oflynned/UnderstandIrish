@@ -1273,14 +1273,7 @@
                         </TableRow>
                     </TableLayout>
 
-                    <View
-                        android:layout_width="fill_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_below="@+id/ftable"
-                        android:id="@+id/lineprep"
-                        android:background="@android:color/darker_gray"/>
+
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -1291,19 +1284,30 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:layout_below="@+id/lineprep"
+                        android:layout_below="@+id/ftable"
                         android:id="@+id/titlePrepArt"
                         android:textColor="@color/red"
                         android:layout_centerHorizontal="true"
                         android:gravity="center"/>
 
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_below="@+id/titlePrepArt"
+                        android:id="@+id/lineprep"
+                        android:background="@android:color/darker_gray"/>
+
                     <TableLayout
                         android:id="@+id/tableprep"
-                        android:layout_below="@+id/titlePrepArt"
+                        android:layout_below="@+id/lineprep"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
                         android:layout_gravity="center"
                         android:layout_margin="15dp">
+
+
 
                         <TableRow
                             android:id="@+id/tableRow1"
