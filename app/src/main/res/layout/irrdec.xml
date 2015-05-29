@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="Sex"/>
+                    android:text="Gen"/>
 
                 <TextView
                     android:background="@drawable/cell_coloured"
