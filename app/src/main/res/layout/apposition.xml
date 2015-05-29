@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="What is apposition?"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="Apposition is the term used to refer to a person or name in a special context. English too has a set of appositional rules that must be adhered to; this includes the way that names of people correspond to various cases, official titles, declarative vocative clauses, as well as mixing personal pronouns with titles."/>
 
         <View
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:text="Noun Co-existence"/>
 
         <TextView
             android:layout_width="wrap_content"
