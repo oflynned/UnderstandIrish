@@ -77,6 +77,512 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Body 2"/>
 
+        <TableLayout
+            android:id="@+id/tablefirstdec"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Dec">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Sex"/>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Gen Sing"/>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Dat Sing"/>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Example"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1st\n\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="m\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="palat.\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="= nom\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="fear (n)\nfir (g)\nfear (d)"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2nd\n\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="f\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="palat. \n\t+e\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="palat.\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="long\nloinge\nloing"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3rd\n\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="m/f\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="depalat.\n\t+ a\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="= nom\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="leann\nleanna\nleann"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow5" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4th\n\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="m\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="= nom\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="= nom\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="cailín\ncailín\ncailín"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow6" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5th\n(1)\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="f\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="depal.\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="= nom\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="athair\nathar\nathair"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow6" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5th\n(2)\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="f\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="depal.\n+(e)ach\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="= nom\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="beoir\nbeorach\nbeoraigh"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow6" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5th\n(3)\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="f\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="+d\n+n\n+nn"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="+id\n+in\n+inn"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="cara\ncarad\ncaraid"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow7" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Irreg\n\n">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="m/f\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-\n\n"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="bean\nmná\nmnaoí"/>
+
+            </TableRow>
+        </TableLayout>
+
         <View
             android:layout_width="fill_parent"
             android:layout_height="1dp"
