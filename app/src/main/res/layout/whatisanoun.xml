@@ -47,35 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="A noun is a thing that can be rela or abstract. Every item around you is a noun. Every place you've been to is a noun. Every emotion you feel is a noun. Nouns form families in Irish and many other languages depending on their meaning, and also on their sounds. These are called declensions and are very important at working out how a word changes in its context."/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="5dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Types of nouns"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingBottom="10dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="There are three groups of nouns outside of declensions, generally speaking. A nouns can be common (chair, table, book), proper (Dublin, New York, London), collective (choir, team, regiment), compound (pickpocket, paperclip), or abstract (anger, happiness, desire)"/>
+            android:text="A noun is a thing that can be real or abstract. Every item around you is a noun. Every place you've been to is a noun. Every emotion you feel is a noun. Nouns form families in Irish and many other languages depending on their meaning, and also on their sounds. These are called declensions and are very important at working out how a word changes in its context."/>
 
         <View
             android:layout_width="fill_parent"

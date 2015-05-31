@@ -909,7 +909,7 @@ public class NavigationActivity extends FragmentActivity {
         verbs.add("Future tense");
         verbs.add("Pluperfect tense");
         verbs.add("Conditional tense");
-        verbs.add("Subjunctive tense");
+        verbs.add("Subjunctive mood");
         verbs.add("Irregular verbs");
         verbs.add("Defective verbs");
         verbs.add("Verbal derivatives");

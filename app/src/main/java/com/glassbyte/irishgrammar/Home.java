@@ -1,5 +1,7 @@
 package com.glassbyte.irishgrammar;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -16,12 +18,14 @@ public class Home extends Fragment{
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		ScrollView mLayout = (ScrollView) inflater.inflate(R.layout.fragment_home,container,false);
-		Button mDonate = (Button) mLayout.findViewById(R.id.donate);
 
+		Button mDonate = (Button) mLayout.findViewById(R.id.donate);
 		mDonate.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(getActivity(),"Giz ur spare change luv",Toast.LENGTH_SHORT).show();
+				Intent intent = new Intent(Intent.ACTION_VIEW);
+				intent.setData(Uri.parse("market://search?q=pub:<GlassByte>"));
+				startActivity(intent);
 			}
 		});
 
