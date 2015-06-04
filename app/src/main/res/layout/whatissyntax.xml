@@ -77,6 +77,92 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Syntax is important as it's the basis in how you communicate your thoughts and words in a language. Without syntax, it's not possible to express yourself."/>
 
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Classification"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Irish follows two forms of expressing being with verbs: the copula and verbs."/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Verbs"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Verbs in Irish come at the start of the sentence. They are used to describe how an agent has done an action."/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Copula"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The copula is a method of expressing constant being. It is used in other languages such as Latin and Spanish, and deals with things that tend not to change state or being."/>
+
         <View
             android:layout_width="fill_parent"
             android:layout_height="1dp"

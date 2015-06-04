@@ -77,7 +77,19 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="The subject of the sentence, or the doer of the action, refers to the action that is being done by someone. The subject comes in the second position in Irish and is preceded by the verb of the sentence."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tá mé go maith - I am good\nCríochnaíonn tú an obair - You finish the work"/>
 
         <View
             android:layout_width="match_parent"
@@ -105,8 +117,64 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text=""/>
+            android:text="Irish has a set of verbs that exist that deviate in behaviour as a result of their aspect. Emotions are subjectless as an emotion has an aspect of being upon someone, and not an attribute that they choose to possess."/>
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tá áthas orm - I am happy\nTá tuirse air - He is tired"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Irish also takes a special form for possession. An object in Irish is possessed by someone if it is 'at' them, therefore the verb 'to have' in English is overridden by use of this form as a result. There is no verb 'to have' in Irish, only as a prepositional construct."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Tá guthán soghluiste agam - I have a smart phone\nTá cailín agam - I have a girlfriend"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="A share of verbs in Irish take a different aspect due to circumstance of the nature of the action and as a result become done to the subject by them having no control over the situation. Actions like these tend to be due to circumstance, emotion-based, or aspect that happened and cannot be changed."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Theip orm - I failed\n D'éirigh liom - I succeeded\nIs as Éireann mé - I am from Ireland"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -162,63 +230,6 @@
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text=""/>
-
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="5dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Classification"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingBottom="10dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Irish follows two forms of expressing being with verbs: the copula and verbs."/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="5dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Verbs"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:paddingBottom="10dp"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Verbs in Irish come at the start of the sentence. They are used to describe how an agent has done an action."/>
 
         <View
             android:layout_width="fill_parent"
