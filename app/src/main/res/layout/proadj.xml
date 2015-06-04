@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Generalisation"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="Pronominial adjectives allow a general modification to a noun that does not decline and classifies a certain attribute. Pronominial adjectives exist in English too, an example would be 'person' v 'somebody'."/>
 
         <View
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:text="Attributive Features"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +75,302 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
+            android:text="Pronominial adjectives are placed either before or after the modified noun depending on the attribute itself:"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gach (before noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Gach +‎Ø - Every - 'Gach duine - Everyone'\nGach uile +h - Every single... - 'Gach uile dhuine - Every single person'\nGach aon +h - Every single... - 'Gach aon bhean - Every woman'\nGach uile can also be exchanged with 'chuile' which also causes lenition.\nGach aon can also be exchanged with 'chaon' which causes lenition."/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Aon (before noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Aon corresponds to the English 'any'. It precedes the noun and causes lenition."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Aon + Noun - Any + noun - 'Ag aon am - At any time' "/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ar Bith (after noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Ar bith corresponds to the English 'any'. It follows the noun and causes lenition. It can be coupled with 'aon' to stress the meaning of 'any'"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="(Aon +) Noun + Ar Bith - Any + noun - 'Ag (aon) am ar bith - At any time' "/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Éigin (after noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Éigin indicates something autonomous and unknown in a noun, equivalent to the English 'some' as in 'somebody'."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Noun + éigin - Some+noun - 'Rud de shaghas éigin - Some type of thing' "/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Céanna (after noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Céanna corresponds to the English 'same'. It follows the noun it attributes."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Noun + céanna - Same+noun - 'An méid céanna - The same amount'"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eile (after noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Eile corresponds to the English 'another', 'other' or 'else'. It follows the noun."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Noun + eile - Another + noun - 'An rud eile - The other thing' "/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Áirithe (after noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Áirithe corresponds to the English 'certain', 'specific' or 'definite'. It follows the noun."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Noun + áirithe - Certain + noun - 'An rud áirithe - The certain thing' "/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Araile (after noun)"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Araile corresponds to the English 'certain', 'specific' or 'definite'. It follows the noun."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Noun + araile - Certain + noun - 'Ar am araile - At a certain time' "/>
 
         <View
             android:layout_width="fill_parent"
