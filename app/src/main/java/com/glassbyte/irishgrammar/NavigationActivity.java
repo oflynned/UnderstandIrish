@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.DrawerLayout.DrawerListener;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -142,6 +144,7 @@ import java.util.List;
 
 public class NavigationActivity extends FragmentActivity {
     private DrawerLayout mDrawerLayout;
+    private String tag;
     ImageView home;
     Fragment fragment = null;
     TextView appname;
@@ -172,7 +175,9 @@ public class NavigationActivity extends FragmentActivity {
         fragment = new Home();
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.content_frame, fragment).commit();
+                .replace(R.id.content_frame, fragment)
+                .commit();
+
         mDrawerLayout.closeDrawer(expListView);
 
         expListView.setOnChildClickListener(new OnChildClickListener() {
