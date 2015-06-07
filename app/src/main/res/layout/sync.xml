@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="What is this?"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="Syncopation is the change of a sound of a vowel within a syllable of a poly-syllabic word."/>
 
         <View
             android:layout_width="match_parent"
@@ -88,5 +88,6 @@
             android:layout_height="10dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>
+
     </LinearLayout>
 </ScrollView>
