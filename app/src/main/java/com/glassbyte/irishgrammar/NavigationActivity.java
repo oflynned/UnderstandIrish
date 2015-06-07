@@ -147,7 +147,6 @@ import java.util.List;
 
 public class NavigationActivity extends FragmentActivity {
     private DrawerLayout mDrawerLayout;
-    private FrameLayout frameLayout;
 
     Fragment fragment = null;
     ExpandableListView expListView;
@@ -155,40 +154,10 @@ public class NavigationActivity extends FragmentActivity {
     ExpandableListAdapter listAdapter;
     List<String> listDataHeader;
 
-    public int heightL;
-    public int widthL;
-
-    public int heightR;
-    public int widthR;
-
-    public int height;
-    public int width;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
-
-        /*
-        frameLayout = (FrameLayout) findViewById(R.id.lvExpR);
-
-        //dimensions of the left drawer
-        heightL = (int) (getResources().getDisplayMetrics().widthPixels/0.75);
-        widthL = getResources().getDisplayMetrics().heightPixels;
-
-        //dimensions of the right drawer
-        heightR = getResources().getDisplayMetrics().widthPixels;
-        widthR = getResources().getDisplayMetrics().heightPixels;
-
-        //dimensions of the total screen size per device
-        height = getResources().getDisplayMetrics().widthPixels;
-        width = getResources().getDisplayMetrics().heightPixels;
-
-        //cast to layout
-        FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(widthR,heightR);
-        params.width = widthR;
-        frameLayout.setLayoutParams(params);
-        */
 
         setUpDrawer();
     }

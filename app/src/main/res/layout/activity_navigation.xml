@@ -21,6 +21,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="0dp"/>
 
+
         <!-- The navigation menu -->
 
         <ExpandableListView
@@ -41,6 +42,7 @@
             android:layout_gravity="end"
             android:background="@color/lightestgrey">
 
+
             <ScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
@@ -48,6 +50,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
