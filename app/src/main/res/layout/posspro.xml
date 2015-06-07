@@ -37,7 +37,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header"/>
+            android:text="Adjectival Possession"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,610 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body"/>
+            android:text="Irish, like English, utilises a series of pronouns that shows possession. Each possessive pronoun causes a different effect on the following noun by use of lenition or eclipsis, and pronunciation is affected accordingly."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The following table refers to nouns starting with a consonant:"/>
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Pronoun">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Effect"/>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Translation"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Mo">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Lenition"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="My"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Do">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Lenition"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Your"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Lenition"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="His"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Her"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ár">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Eclipsis"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Our"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Bhúr">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Eclipsis"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Your"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Eclipsis"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Their"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="The following table refers to nouns starting with a vowel:"/>
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Pronoun">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Effect"/>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Translation"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="M'">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="My"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="D'">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Your"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="His"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="h-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Her"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ár">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="n-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Our"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Bhúr">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="n-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Your"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="n-"/>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Their"/>
+
+            </TableRow>
+        </TableLayout>
 
         <View
             android:layout_width="match_parent"
@@ -65,7 +668,7 @@
             android:paddingTop="10dp"
             android:paddingBottom="5dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Header 2"/>
+            android:text="Possessed Nouns"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,7 +678,257 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Body 2"/>
+            android:text="When a noun is possessed and this is being expressed in an emphatic way, the noun receives a suffix of another syllable instead of receiving stress. For example, in English, we stress the noun: 'It's *my* book!'. However, in Irish; we do not stress. The emphatic noun receives another syllable depending on the possessive pronouns, ie 'Sin mo leabharsa!'"/>
+
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Pronoun">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell_coloured"
+                    android:padding="5dp"
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Noun suffix"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow2" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Mo">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-sa/se"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow3" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Do">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-sa/se"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-san/-sean"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-sa/se"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ár">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-na/ne"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Bhúr">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-sa/se"/>
+
+            </TableRow>
+
+            <TableRow android:id="@+id/tableRow4" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="A">
+                </TextView>
+
+                <TextView
+                    android:background="@drawable/cell"
+                    android:padding="5dp"
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="-san/sean"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Quantification of Nouns"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Possessive pronouns only work with words that are quantifiable, or pertain to an amount. The logic in this is that the one possessing must possess a definite amount, but this is incompatible with feelings. To combat this, normally the partitive quantifier 'cuid' is used between the possessive pronoun and noun. Normally this is also used to make something emphatic with use of the appropriate suffix on the noun in the plural form."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="By use, persons are referred to using the quantifier 'muintir', while everything else is referred to with 'cuid':"/>
 
         <View
             android:layout_width="fill_parent"
@@ -83,6 +936,7 @@
             android:background="@android:color/darker_gray"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>
+
         <View
             android:layout_width="fill_parent"
             android:layout_height="10dp"

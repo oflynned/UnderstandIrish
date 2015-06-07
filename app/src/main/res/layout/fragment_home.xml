@@ -104,7 +104,9 @@
             android:layout_marginTop="15dp"
             android:autoLink="web"
             android:layout_below="@+id/donate"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="10dp"/>
 
     </RelativeLayout>
 </ScrollView>

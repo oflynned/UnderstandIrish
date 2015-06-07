@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.DrawerLayout.DrawerListener;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -18,7 +19,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.glassbyte.irishgrammar.aboutus.AboutUs;
@@ -144,22 +147,49 @@ import java.util.List;
 
 public class NavigationActivity extends FragmentActivity {
     private DrawerLayout mDrawerLayout;
-    private String tag;
-    ImageView home;
+    private FrameLayout frameLayout;
+
     Fragment fragment = null;
-    TextView appname;
     ExpandableListView expListView;
     HashMap<String, List<String>> listDataChild;
     ExpandableListAdapter listAdapter;
     List<String> listDataHeader;
 
+    public int heightL;
+    public int widthL;
+
+    public int heightR;
+    public int widthR;
+
+    public int height;
+    public int width;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
-        //home = (ImageView) findViewById(R.id.home);
-        //home.setOnClickListener(homeOnclickListener);
-        //appname = (TextView) findViewById(R.id.appname);
+
+        /*
+        frameLayout = (FrameLayout) findViewById(R.id.lvExpR);
+
+        //dimensions of the left drawer
+        heightL = (int) (getResources().getDisplayMetrics().widthPixels/0.75);
+        widthL = getResources().getDisplayMetrics().heightPixels;
+
+        //dimensions of the right drawer
+        heightR = getResources().getDisplayMetrics().widthPixels;
+        widthR = getResources().getDisplayMetrics().heightPixels;
+
+        //dimensions of the total screen size per device
+        height = getResources().getDisplayMetrics().widthPixels;
+        width = getResources().getDisplayMetrics().heightPixels;
+
+        //cast to layout
+        FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(widthR,heightR);
+        params.width = widthR;
+        frameLayout.setLayoutParams(params);
+        */
+
         setUpDrawer();
     }
 
