@@ -1157,7 +1157,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="'Níos' only reflects the present and future tenses in Irish when making a comparison. In order to make a comparison that resides in a different time, such as past, conditional or otherwise, another word is used."/>
+            android:text="'Níos' only reflects the present and future tenses in Irish when making a comparison, note that it is also a shortened form of 'ní is'. In order to make a comparison that resides in a different time, such as past, conditional or otherwise, another word is used: 'níba'."/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1211,7 +1211,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Ní b' + comparative"/>
+            android:text="Ní b' + comparative + lenition"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1257,6 +1257,58 @@
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Tá an torradh níos fearr ná mar a cheapann sé\nThe result is better than he thinks"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Copular construct"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="When the copula is used, the word níba/níos is not used. Remember that the copula is used for topics and items that don't change, and are always in this state regardless of time within its existence."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Is/ba + comparative form + X + ná + Y"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Is áille an ghealach ná an ghrian\nThe moon is prettier than the sun\n\nB'fhearr liom dul\nIt'd be better for me to go"/>
 
         <View
             android:layout_width="fill_parent"
