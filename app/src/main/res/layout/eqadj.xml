@@ -364,7 +364,7 @@
             android:paddingRight="15dp"
             android:paddingBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="Táimid chomhairde\nWe're as tall as one another\n\nTá siad chomhúsáideach\nThey're as useful as each other"/>
+            android:text="Táimid chomhard\nWe're as tall as one another\n\nTá siad chomhúsáideach\nThey're as useful as each other"/>
 
         <View
             android:layout_width="match_parent"
