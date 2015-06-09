@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="red">#B0464C</color>
+
+    <color name="irishgreen">#216869</color>
+    <color name="irishwhite">#D8CBC7</color>
+    <color name="irishorange">#CC3F0C</color>
+
+    <color name="red">#93032E</color>
     <color name="lightblue">#0290d6</color>
     <color name="blue">#017cb8</color>
     <color name="statusblue">#02608e</color>
@@ -16,9 +21,10 @@
     <color name="textblack">#040404</color>
     <color name="darkcream">#DECDF5</color>
 
-    <color name="main_green">#97D5A4</color>
+    <color name="main_yellow">#F9CB40</color>
     <color name="green">#26ae90</color>
     <color name="dark_grad_green">#216869</color>
+
     <color name="light_black">#2e3237</color>
     <color name="skyblue">#428bca</color>
     <color name="input_login">#222222</color>
